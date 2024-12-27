@@ -1,28 +1,14 @@
-# `Turborepo` Vite starter
+# `Turborepo` ONVP
 
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-vite
-```
-
-## What's inside?
-
-This Turborepo includes the following packages and apps:
+This is ONVP Frontend Monorepo for frontend apps to share common configurations and utilities
 
 ### Apps and Packages
 
-- `docs`: a vanilla [vite](https://vitejs.dev) ts app
-- `web`: another vanilla [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component & utility library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `onvp-admin`: admin application
+- `onvp-app`: main fe app
+- `@onvp/ui`: styles/configs, shared by both `onvp-admin` and `onvp-app` applications
+- `@onvp/eslint-config`: shared `eslint` configurations
+- `@onvp/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 ### Utilities
 

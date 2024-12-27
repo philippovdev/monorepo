@@ -10,7 +10,12 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "paths": {
+      "@onvp/ui": ["packages/ui/index.ts"],
+      "@onvp/unocss": ["packages/ui/unocss/unocss.config.js"],
+      "@onvp/ui/*": ["packages/ui/*"]
+    }
   },
   "exclude": ["node_modules"]
 }

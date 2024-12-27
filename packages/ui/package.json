@@ -1,19 +1,42 @@
 {
-  "name": "@repo/ui",
+  "name": "@onvp/ui",
   "version": "0.0.0",
-  "exports": {
-    "./counter": "./components/counter.ts",
-    "./header": "./components/header.ts",
-    "./setup-counter": "./utils/counter.ts"
-  },
   "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.ts",
+      "require": "./index.cjs"
+    },
+    "./components/*": {
+      "types": "./components/*/index.d.ts",
+      "import": "./components/*/index.ts",
+      "require": "./components/*/index.cjs"
+    },
+    "./unocss": {
+      "types": "./unocss/unocss.config.d.ts",
+      "import": "./unocss/unocss.config.js",
+      "require": "./unocss/unocss.config.cjs"
+    }
+  },
   "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
     "lint": "eslint \"**/*.ts\""
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "eslint": "^8.57.0",
-    "typescript": "5.5.4"
+    "@onvp/eslint-config": "*",
+    "@onvp/typescript-config": "*",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.2.5",
+    "tailwindcss": "^3.4.17",
+    "tsc": "^2.0.4",
+    "unocss": "^0.65.3",
+    "vue": "^3.5.13"
   }
 }
