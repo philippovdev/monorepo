@@ -27,8 +27,7 @@
   },
   "devDependencies": {
     "@onvp/eslint-config": "*",
-    "@onvp/typescript-config": "*",
-    "eslint": "^8.57.0"
+    "@onvp/typescript-config": "*"
   },
   "dependencies": {
     "typescript": "^5.7.2",
