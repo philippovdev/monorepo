@@ -1,14 +1,14 @@
-# `Turborepo` ONVP
+# `Turborepo` MONOREPO
 
-This is ONVP Frontend Monorepo for frontend apps to share common configurations and utilities
+This is Frontend Monorepo for frontend apps to share common configurations and utilities
 
 ### Apps and Packages
 
-- `onvp-admin`: admin application
-- `onvp-app`: main fe app
-- `@onvp/ui`: styles/configs, shared by both `onvp-admin` and `onvp-app` applications
-- `@onvp/eslint-config`: shared `eslint` configurations
-- `@onvp/typescript-config`: `tsconfig.json`s used throughout the monorepo
+- `admin`: admin application
+- `app`: main fe app
+- `@repo/ui`: styles/configs, shared by both `admin` and `app` applications
+- `@repo/eslint-config`: shared `eslint` configurations
+- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
 
 ### Utilities
 

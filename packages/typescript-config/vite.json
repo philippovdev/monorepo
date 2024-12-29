@@ -12,9 +12,9 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "paths": {
-      "@onvp/ui": ["packages/ui/index.ts"],
-      "@onvp/unocss": ["packages/ui/unocss/unocss.config.js"],
-      "@onvp/ui/*": ["packages/ui/*"]
+      "@repo/ui": ["packages/ui/index.ts"],
+      "@repo/unocss": ["packages/ui/unocss/unocss.config.js"],
+      "@repo/ui/*": ["packages/ui/*"]
     }
   },
   "exclude": ["node_modules"]

@@ -101,35 +101,35 @@ export function useRequest(baseURL, options) {
         controller = new AbortController();
     }
     function get(url, config) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, ofetchInstance(url, __assign({ method: 'GET' }, config))];
             });
         });
     }
     function post(url, body, config) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, ofetchInstance(url, __assign({ method: 'POST', body: body }, config))];
             });
         });
     }
     function put(url, body, config) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, ofetchInstance(url, __assign({ method: 'PUT', body: body }, config))];
             });
         });
     }
     function patch(url, body, config) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, ofetchInstance(url, __assign({ method: 'PATCH', body: body }, config))];
             });
         });
     }
     function del(url, config) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, Promise, function () {
             return __generator(this, function (_a) {
                 return [2 /*return*/, ofetchInstance(url, __assign({ method: 'DELETE' }, config))];
             });

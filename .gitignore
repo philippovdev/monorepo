@@ -3,6 +3,7 @@ node_modules
 .turbo
 *.log
 dist
+.idea
 dist-ssr
 *.local
 .env

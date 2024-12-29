@@ -1,7 +1,7 @@
 {
-  "name": "@onvp/http",
+  "name": "@repo/http",
   "version": "0.0.0",
-  "description": "onvp http client",
+  "description": "http client",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
